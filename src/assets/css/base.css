@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+  color: #333;
+}
+body {
+  font-family:"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;/*webkit:苹果浏览器引擎，tap：点击*/
+}
+html,body,#app{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+/*通用容器*/
+.container {
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header*/
+.el-icon-arrow-down{
+  font-size: 12px;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.el-table{
+  margin-top: 20px;
+}
+.el-table td,.el-table th{
+  text-align: center!important;
+}
+/*图片上传*/
+.avatar-uploader .el-upload {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px !important;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  display: block;
+}
+.el-radio-button__inner{
+  border-left: 1px solid #dcdfe6 !important;
+}
+
+.el-radio-button .el-radio-button__inner{
+  border-radius: 4px !important;
+}
+.el-radio-button__orig-radio:checked+.el-radio-button__inner{
+  box-shadow: none !important;
+}
+/*退货退款申请详情信息*/
+.return .goods .el-descriptions__body .el-descriptions__table .el-descriptions-item__cell{
+  text-align: center;
+}
+.return .desc .el-descriptions__body{
+  margin-bottom: 15px;
+}
+.return .desc .el-descriptions-item__label{
+  width: 320px;
+}
+.return .el-descriptions-row td .sku-name{
+  width: 400px !important;
+  margin: 0 auto;
+}

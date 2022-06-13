@@ -1,0 +1,23 @@
+{
+  "id": "3400027",
+  "name": "cmw-portal",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6966956",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "624530",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    }
+  ]
+}
